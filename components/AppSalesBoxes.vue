@@ -15,8 +15,8 @@ export default {
       boxes: [
         {
           icon: "/icon-package.svg",
-          heading: "Free Shipping Globally",
-          details: "Delivery in 4 Days"
+          heading: "Free Shipping Locally",
+          details: "Delivery in a few hours"
         },
         {
           icon: "/icon-cal.svg",
@@ -25,8 +25,8 @@ export default {
         },
         {
           icon: "/icon-service.svg",
-          heading: "Easy Online Returns",
-          details: "Send Within 30 Days"
+          heading: "Hosting event",
+          details: "Check dates"
         }
       ]
     };

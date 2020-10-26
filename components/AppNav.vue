@@ -1,19 +1,19 @@
 <template>
   <header>
-    <h1>Skyline Ivy</h1>
+    <h1>Flatirons Greens</h1>
     <nav>
       <ul>
         <li>
           <nuxt-link exact to="/">Home</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/all">All</nuxt-link>
+          <nuxt-link to="/all">All Greens</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/women">Women</nuxt-link>
+          <nuxt-link to="/women">Micro Herbs</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/men">Men</nuxt-link>
+          <nuxt-link to="/men">Micro Root Varieties</nuxt-link>
         </li>
         <li>
           <div class="carttotal" v-if="cartCount > 0">{{ cartCount }}</div>

@@ -1,21 +1,21 @@
 <template>
   <div class="textlockup">
     <div class="img">
-      <slot name="img">
+      <!-- <slot name="img">
         <img src="/shoe1.jpg" alt="shoe" />
-      </slot>
+      </slot> -->
     </div>
     <div class="new">
-      <slot name="new">New</slot>
+      <slot name="new">When</slot>
     </div>
     <div class="sale">
-      <slot name="sale">Men Shoes</slot>
+      <slot name="sale">You Know</slot>
     </div>
     <div class="collection">
-      <slot name="collection">Collection</slot>
+      <slot name="collection">Your Farmer</slot>
     </div>
     <div class="details">
-      <slot name="details">Street Style New Fashion</slot>
+      <slot name="details">You Know Your Food</slot>
     </div>
   </div>
 </template>
